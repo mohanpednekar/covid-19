@@ -1,11 +1,11 @@
+import Page from '../components/Page'
 import Link from 'next/link'
 
 export default () => (
-  <div>
-    This is a static page goto{' '}
-    <Link href="/">
-      <a>dynamic</a>
-    </Link>{' '}
-    page.
-  </div>
+    <Page>
+      <Link href="/">
+        <a>Home Page</a>
+      </Link>{' '}
+      <br/>This is a reference website for COVID-19 related information and some attempts to tackle misinformation.
+    </Page>
 )
